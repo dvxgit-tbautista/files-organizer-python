@@ -1,0 +1,8 @@
+# .env file
+SOURCE_DIR=
+XLSX_DIR=
+JPG_DIR=
+DOCX_DIR=
+TXT_DIR=
+MP3_DIR=
+JSON_DIR=
