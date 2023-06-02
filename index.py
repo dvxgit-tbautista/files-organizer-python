@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Specify the source directory containing the files
-source_dir = 'C:/Users/tbaut/Downloads'
+source_dir = os.getenv('SOURCE_DIR')
 
 # Create a list of all files in the source directory
 files = os.listdir(source_dir)
